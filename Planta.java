@@ -37,6 +37,7 @@ public class Planta {
 
     // método para calcular o quanto a planta cresce ao absorver os nutrientes do solo
     public void absorverNutrientes(){
-        this.tamanho += this.soloPlanta.calcularValorNutricional(this.soloPlanta.getTamanho());
+        this.tamanho += this.soloPlanta.calcularValorNutricional(this.soloPlanta.getNutrientes());
     }
 }
+
